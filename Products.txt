@@ -1,0 +1,67 @@
+insert into PRODUCT values('dryfruit01','Cashew','2013-2-1','2013-12-1','Virat','100','25000','250');
+insert into PRODUCT values('dryfruit02','Dates','2013-2-1','2013-12-1','Virat','100','6000','60');
+insert into PRODUCT values('dryfruit03','Dry Apricot','2013-2-1','2013-12-1','Virat','100','15000','150');
+insert into PRODUCT values('dryfruit04','Dry Dates','2013-2-1','2013-12-1','Virat','100','5000','50');
+insert into PRODUCT values('dryfruit05','Dry Figs','2013-2-1','2013-12-1','Virat','100','15000','150');
+insert into PRODUCT values('dryfruit06','Dry Pear','2013-2-1','2013-12-1','Virat','100','20000','200');
+insert into PRODUCT values('dryfruit07','Dry Grapes','2013-2-1','2013-12-1','Virat','100','4000','40');
+insert into PRODUCT values('dryfruit08','Pista','2013-2-1','2013-12-1','Virat','100','30000','300');
+insert into PRODUCT values('dryfruit09','Saffron','2013-2-1','2013-12-1','Virat','100','12500','125');
+insert into PRODUCT values('dryfruit10','Walnut','2013-2-1','2013-12-1','Virat','100','20000','200');
+
+insert into PRODUCT values('cereals01','Basmati','2013-2-1','2013-12-1','Rahul','100','2500','25');
+insert into PRODUCT values('cereals02','Chana Dal','2013-2-1','2013-12-1','Rahul','100','6000','60');
+insert into PRODUCT values('cereals03','Dhania','2013-2-1','2013-12-1','Rahul','100','1000','10');
+insert into PRODUCT values('cereals04','Sugar','2013-2-1','2013-12-1','Rahul','100','1500','15');
+insert into PRODUCT values('cereals05','Wheat','2013-2-1','2013-12-1','Rahul','100','800','8');
+insert into PRODUCT values('cereals06','Black Pepper','2013-2-1','2013-12-1','Rahul','100','1000','10');
+insert into PRODUCT values('cereals07','Masoor Dal','2013-2-1','2013-12-1','Rahul','100','1800','18');
+insert into PRODUCT values('cereals08','Mung Dal','2013-2-1','2013-12-1','Rahul','100','2000','20');
+insert into PRODUCT values('cereals09','Urad Dal','2013-2-1','2013-12-1','Rahul','100','2000','20');
+insert into PRODUCT values('cereals10','Toor Dal','2013-2-1','2013-12-1','Rahul','100','2000','20');
+
+insert into PRODUCT values('baby01','Cerelac 1','2013-2-1','2013-12-1','Raghu','100','5000','50');
+insert into PRODUCT values('baby02','Cerelac 2','2013-2-1','2013-12-1','Raghu','100','6000','60');
+insert into PRODUCT values('baby03','Lactogen 1','2013-2-1','2013-12-1','Raghu','100','4000','40');
+insert into PRODUCT values('baby04','Lactogen 2','2013-2-1','2013-12-1','Raghu','100','4000','40');
+insert into PRODUCT values('baby05','Lactogen 3','2013-2-1','2013-12-1','Raghu','100','4000','40');
+insert into PRODUCT values('baby06','Lactogen 4','2013-2-1','2013-12-1','Raghu','100','4000','40');
+insert into PRODUCT values('baby07','Johnson Lotion','2013-2-1','2013-12-1','Raghu','100','7500','75');
+insert into PRODUCT values('baby08','Johnson Oil','2013-2-1','2013-12-1','Raghu','100','5000','50');
+insert into PRODUCT values('baby09','Johnson Powder','2013-2-1','2013-12-1','Raghu','100','4000','40');
+insert into PRODUCT values('baby10','Johnson Soap','2013-2-1','2013-12-1','Raghu','100','3000','30');
+
+insert into PRODUCT values('body01','Axe Powder','2013-2-1','2013-12-1','Raghu','100','8000','80');
+insert into PRODUCT values('body02','Axe Denim','2013-2-1','2013-12-1','Raghu','100','6000','60');
+insert into PRODUCT values('body03','Cinthol','2013-2-1','2013-12-1','Raghu','100','4000','40');
+insert into PRODUCT values('body04','Clean and Clear','2013-2-1','2013-12-1','Raghu','100','4000','40');
+insert into PRODUCT values('body05','Denim Deodorant','2013-2-1','2013-12-1','Raghu','100','14000','140');
+insert into PRODUCT values('body06','Fair and Handsome','2013-2-1','2013-12-1','Raghu','100','4000','40');
+insert into PRODUCT values('body07','Garnier Colour','2013-2-1','2013-12-1','Raghu','100','12000','120');
+insert into PRODUCT values('body08','Listerine','2013-2-1','2013-12-1','Raghu','100','5000','50');
+insert into PRODUCT values('body09','Lifebuoy Hand Wash','2013-2-1','2013-12-1','Raghu','100','4000','40');
+insert into PRODUCT values('body10','Fair and Lovely','2013-2-1','2013-12-1','Raghu','100','3000','30');
+
+insert into PRODUCT values('packet01','Tata Tea Gold','2013-2-1','2013-12-1','Nikhil','100','4000','40');
+insert into PRODUCT values('packet02','Nescafe','2013-2-1','2013-12-1','Nikhil','100','3500','35');
+insert into PRODUCT values('packet03','Cornflakes','2013-2-1','2013-12-1','Nikhil','100','9000','90');
+insert into PRODUCT values('packet04','Oats','2013-2-1','2013-12-1','Nikhil','100','9000','90');
+insert into PRODUCT values('packet05','Garam Masala','2013-2-1','2013-12-1','Nikhil','100','4000','40');
+
+insert into PRODUCT values('home01','Comfort','2013-2-1','2013-12-1','Praveen','100','4000','40');
+insert into PRODUCT values('home02','Harpic','2013-2-1','2013-12-1','Praveen','100','3500','35');
+insert into PRODUCT values('home03','Odonil','2013-2-1','2013-12-1','Praveen','100','2000','20');
+insert into PRODUCT values('home04','Pril','2013-2-1','2013-12-1','Praveen','100','3000','30');
+insert into PRODUCT values('home05','Tide','2013-2-1','2013-12-1','Praveen','100','4000','40');
+
+insert into PRODUCT values('dairy01','Ghee','2013-2-1','2013-12-1','Praveen','100','14000','140');
+insert into PRODUCT values('dairy02','Ice Chocobar','2013-2-1','2013-12-1','Praveen','100','2000','20');
+insert into PRODUCT values('dairy03','Ice Vanilla','2013-2-1','2013-12-1','Praveen','100','2000','20');
+insert into PRODUCT values('dairy04','Ice Strawberry','2013-2-1','2013-12-1','Praveen','100','2200','22');
+insert into PRODUCT values('dairy05','Cheese','2013-2-1','2013-12-1','Praveen','100','8000','80');
+
+insert into PRODUCT values('snack01','Bingo','2013-2-1','2013-12-1','Praveen','100','14000','140');
+insert into PRODUCT values('snack02','Biscuit','2013-2-1','2013-12-1','Praveen','100','2000','20');
+insert into PRODUCT values('snack03','Maggi','2013-2-1','2013-12-1','Praveen','100','2000','20');
+insert into PRODUCT values('snack04','Milk Biscuits','2013-2-1','2013-12-1','Praveen','100','2200','22');
+insert into PRODUCT values('snack05','Pasta','2013-2-1','2013-12-1','Praveen','100','8000','80');

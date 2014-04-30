@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Product</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="../css/menu.css" />
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
+        <link rel="stylesheet" type="text/css" href="../css/menu1.css" />
+    </head>
+    <body>
+        <ul id="menu-bar">
+            <li class="active"><a href="../html/ownerControl.html">Home</a></li>
+            <li><a href="#">Products</a>
+                <ul>
+                    <li><a href="../php/sellproduct.php">Sell Products</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact Us</a>
+                <ul>
+                    <li><a href="../html/address.html">Address</a></li>
+                </ul>
+            </li>
+            <li><a href="../html/about.html">About Us</a></li>
+            <li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li>
+            <li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li>
+            <li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li>
+            <li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li>
+            <li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li>            
+            <li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li>
+            <li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li>
+            <li style="valign:center"><a href="http://www.facebook.com/mshalakatti/"><img src="../images/fb.jpg"></a></li>
+            <li style="valign:center"><a href="http://www.twitter.com/mshalakatti/"><img src="../images/tw.jpg"></a></li>
+            </li>
+        </ul>
+        <div class="container">
+	<section id="content">
+		<form name="add" action="../php/product.php" method="post">
+			<h1>Add Product</h1>
+			<div>
+                            <fieldset>
+                                    <select name="id" style="width:200px">
+                                        <option value="dryfruit02">Dates</option>
+                                        <option value="dryfruit01">Cashew</option>
+                                        <option value="dryfruit03">Dry Apricot</option>
+                                        <option value="dryfruit04">Dry Dates</option>
+                                        <option value="dryfruit05">Dry Figs</option>
+                                        <option value="dryfruit06">Dry Pear</option>
+                                        <option value="dryfruit07">Dry Grapes</option>
+                                        <option value="dryfruit08">Pista</option>
+                                        <option value="dryfruit09">Saffron</option>
+                                        <option value="dryfruit10">Walnut</option>
+                                        <option value="cereals01">Basmati</option>
+                                        <option value="cereals02">Chana Dal</option>
+                                        <option value="cereals03">Dhania</option>
+                                        <option value="cereals04">Sugar</option>
+                                        <option value="cereals05">Wheat</option>
+                                        <option value="cereals06">Black Pepper</option>
+                                        <option value="cereals07">Masoor Dal</option>
+                                        <option value="cereals08">Mung Dal</option>
+                                        <option value="cereals09">Urad Dal</option>
+                                        <option value="cereals10">Toor Dal</option>
+                                        <option value="baby01">Cerelac 1</option>
+                                        <option value="baby02">Cerelac 2</option>
+                                        <option value="baby03">Lactogen 1</option>
+                                        <option value="baby04">Lactogen 2</option>
+                                        <option value="baby05">Lactogen 3</option>
+                                        <option value="baby06">Lactogen 4</option>
+                                        <option value="baby07">Johnson Lotion</option>
+                                        <option value="baby08">Johnson Oil</option>
+                                        <option value="baby09">Johnson Powder</option>
+                                        <option value="baby10">Johnson Soap</option>
+                                        <option value="body01">Axe Powder</option>
+                                        <option value="body02">Axe Denim</option>
+                                        <option value="body03">Cinthol</option>
+                                        <option value="body04">Clean and Clear</option>
+                                        <option value="body05">Denim Deodorant</option>
+                                        <option value="body06">Fair and Handsome</option>
+                                        <option value="body07">Garnier Color</option>
+                                        <option value="body08">Listerine</option>
+                                        <option value="body09">Lifebuoy Hand Wash</option>
+                                        <option value="body10">Fair and Lovely</option>
+                                        <option value="packet01">Tata Tea Gold</option>
+                                        <option value="packet02">Nescafe</option>
+                                        <option value="packet03">Cornflakes</option>
+                                        <option value="packet04">Oats</option>
+                                        <option value="packet05">Garam Masala</option>
+                                        <option value="home01">Comfort</option>
+                                        <option value="home02">Harpic</option>
+                                        <option value="home03">Odonil</option>
+                                        <option value="home04">Pril</option>
+                                        <option value="home05">Tide</option>
+                                        <option value="dairy01">Ghee</option>
+                                        <option value="dairy02">Ice Chocobar</option>
+                                        <option value="dairy03">Ice Vanilla</option>
+                                        <option value="dairy04">Ice Strawberry</option>
+                                        <option value="dairy05">Cheese</option>
+                                        <option value="snack01">Bingo</option>
+                                        <option value="snack02">Biscuit</option>
+                                        <option value="snack03">Maggi</option>
+                                        <option value="snack04">Milk Biscuits</option>
+                                        <option value="snack05">Pasta</option>
+                                    </select>
+                                </fieldset>
+			</div>
+                        <div>
+				<input type="text" name="dealer" placeholder="Dealer Name" required="" id="dealer" />
+			</div>
+                        <div>
+				<fieldset>
+                                    <select name="day1">
+                                        <option value="">Day</option>
+                                        <option value="01">01</option>
+                                        <option value="02">02</option>
+                                        <option value="03">03</option>
+                                        <option value="04">04</option>
+                                        <option value="05">05</option>
+                                        <option value="06">06</option>
+                                        <option value="07">07</option>
+                                        <option value="08">08</option>
+                                        <option value="09">09</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                        <option value="26">26</option>
+                                        <option value="27">27</option>
+                                        <option value="28">28</option>
+                                        <option value="29">29</option>
+                                        <option value="30">30</option>
+                                        <option value="31">31</option>
+                                    </select>
+                                    <select name="month1">
+                                        <option value="">Month</option>
+                                        <option value="01">January</option>
+                                        <option value="02">February</option>
+                                        <option value="03">March</option>
+                                        <option value="04">April</option>
+                                        <option value="05">May</option>
+                                        <option value="06">June</option>
+                                        <option value="07">July</option>
+                                        <option value="08">August</option>
+                                        <option value="09">September</option>
+                                        <option value="10">October</option>
+                                        <option value="11">November</option>
+                                        <option value="12">December</option>
+                                    </select>
+                                    <select name="year1">
+                                        <option value="">Year</option>
+                                        <option value="2002">2002</option>
+                                        <option value="2003">2003</option>
+                                        <option value="2004">2004</option>
+                                        <option value="2005">2005</option>
+                                        <option value="2006">2006</option>
+                                        <option value="2007">2007</option>
+                                        <option value="2008">2008</option>
+                                        <option value="2009">2009</option>
+                                        <option value="2010">2010</option>
+                                        <option value="2011">2011</option>
+                                        <option value="2012">2012</option>
+                                        <option value="2013">2013</option>
+                                    </select>
+                                </fieldset>
+			</div>
+			<div>
+				<fieldset>
+                                    <select name="day">
+                                        <option value="">Day</option>
+                                        <option value="01">01</option>
+                                        <option value="02">02</option>
+                                        <option value="03">03</option>
+                                        <option value="04">04</option>
+                                        <option value="05">05</option>
+                                        <option value="06">06</option>
+                                        <option value="07">07</option>
+                                        <option value="08">08</option>
+                                        <option value="09">09</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                        <option value="26">26</option>
+                                        <option value="27">27</option>
+                                        <option value="28">28</option>
+                                        <option value="29">29</option>
+                                        <option value="30">30</option>
+                                        <option value="31">31</option>
+                                    </select>
+                                    <select name="month">
+                                        <option value="">Month</option>
+                                        <option value="01">January</option>
+                                        <option value="02">February</option>
+                                        <option value="03">March</option>
+                                        <option value="04">April</option>
+                                        <option value="05">May</option>
+                                        <option value="06">June</option>
+                                        <option value="07">July</option>
+                                        <option value="08">August</option>
+                                        <option value="09">September</option>
+                                        <option value="10">October</option>
+                                        <option value="11">November</option>
+                                        <option value="12">December</option>
+                                    </select>
+                                    <select name="year">
+                                        <option value="">Year</option>
+                                        <option value="2002">2002</option>
+                                        <option value="2003">2003</option>
+                                        <option value="2004">2004</option>
+                                        <option value="2005">2005</option>
+                                        <option value="2006">2006</option>
+                                        <option value="2007">2007</option>
+                                        <option value="2008">2008</option>
+                                        <option value="2009">2009</option>
+                                        <option value="2010">2010</option>
+                                        <option value="2011">2011</option>
+                                        <option value="2012">2012</option>
+                                        <option value="2013">2013</option>
+                                    </select>
+                                </fieldset>
+			</div>
+			<div>
+				<input type="text" name="quantity" placeholder="Quantity" required="" id="quantity" />
+			</div>
+                        <div>
+				<input type="text" name="tcost" placeholder="Total Cost" required="" id="tcost" />
+			</div>
+                        <div>
+				<input type="text" name="ecost" placeholder="Each Item Cost" required="" id="ecost" />
+			</div>
+                        <div>
+				<input type="submit" value="Add" name="add"/>
+			</div>
+		</form>
+	</section>
+        </div>
+        <br><br><br>
+        <ul id="menu-bar1">
+            <li><a href="../html/faq.html">FAQ</a></li>
+            <li><a href="../html/developer.html">Developer</a></li>
+        </ul>
+    </body>
+</html>
